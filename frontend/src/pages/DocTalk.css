@@ -1,0 +1,52 @@
+
+  /* Container */
+  .doctalk-container {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    height: 100vh;
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Card Styling */
+  .doctalk-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(4, 45, 66, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+  }
+  
+  .doctalk-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(160, 169, 221, 0.3);
+  }
+  
+  /* Headline */
+  .doctalk-card h1 {
+    font-size: 2.5rem;
+    color: #007acc; /* Professional blue */
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph */
+  .doctalk-card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .stay-updated {
+    font-size: 1rem;
+    font-style: italic;
+    color: #007acc;
+    margin-top: 20px;
+  }
+  
