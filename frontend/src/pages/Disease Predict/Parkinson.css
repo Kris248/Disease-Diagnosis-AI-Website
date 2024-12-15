@@ -1,0 +1,123 @@
+.parkinson-container {
+    background: linear-gradient(to bottom, #f0f4f7, #d9e8f5);
+    padding: 20px;
+    max-width: 900px;
+    margin: 90px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parkinson-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .parkinson-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .parkinson-header p {
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  .parkinson-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+  }
+  
+  .parkinson-submit-btn {
+    background: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .parkinson-submit-btn:hover {
+    background: #2980b9;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .prediction-result {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prediction-result h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .prediction-result p {
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+
+
+  
+/* Kidney.css */
+.doctor-section {
+  margin-top: 20px;
+}
+
+.find-doctor-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.find-doctor-button:hover {
+  background-color: #007B9F;
+}
