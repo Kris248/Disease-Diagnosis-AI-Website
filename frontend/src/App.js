@@ -10,7 +10,7 @@ import PredictParkinson from './pages/Disease Predict/Parkinson'
 import PredictBrainTumor from './pages/Disease Predict/BrainTumor'
 import Documentation from './pages/Documentation'
 import DocTalk from './pages/DocTalk';
-// import About from './pages/About';
+import About from './pages/About';
 import Footer from './Layout/Footer';
 import PredictionSelector from './pages/PredictionSelector';
 
@@ -29,11 +29,11 @@ const App = () => {
         <Route path="/predict/braintumor" element={<PredictBrainTumor />} />
         <Route path="/predict/kidney" element={<PredictKidney />} />
         <Route path="/predict/pneumonia" element={<PredictPneumonia />} />
-        <Route path="/doctalk" element={<DocTalk />} />
         <Route path="/documentation" element={<Documentation />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
+      <DocTalk />
     </Router>
   );
 };
